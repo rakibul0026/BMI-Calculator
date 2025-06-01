@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text1"
+            android:textAlignment="center"
+            android:textSize="50dp"
+            android:textColor="@color/pink"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text2"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="40dp">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                android:id="@+id/image1"
+                android:layout_width="160dp"
+                android:layout_height="130dp"
+                android:src="@drawable/male" />
+
+                <Button
+                    android:id="@+id/male_botton"
+                    android:layout_width="155dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/image1"
+                    android:layout_marginTop="0dp"
+                    android:text="Male"
+                    android:textAlignment="center"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/pink1">
+                <ImageView
+                  android:id="@+id/image2"
+                  android:layout_width="160dp"
+                  android:layout_height="130dp"
+                  android:src="@drawable/female"/>
+               <Button
+                  android:id="@+id/female_botton"
+                   android:layout_width="155dp"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@+id/image2"
+                   android:text="Female"
+                />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/weight"
+        android:textAlignment="center"
+        android:textSize="20dp"/>
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Weight"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Height"
+        android:textAlignment="center"
+        android:textSize="20dp"/>
+    <EditText
+        android:id="@+id/height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Height"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Age"
+        android:textAlignment="center"
+        android:textSize="20dp"/>
+    <EditText
+        android:id="@+id/Age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Age"
+        android:textAlignment="center"/>
+    <Button
+        android:id="@+id/calcu_botton"
+        android:layout_width="410dp"
+        android:layout_height="wrap_content"
+         android:textAlignment="center"
+        android:text="Calculate BMI"/>
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Result"
+        android:textSize="20dp"
+
+      />
+
+
+
+</LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
