@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BMI Calculator</string>
+    <string name="text1">BMI Calculator</string>
+    <string name="text2">Gender</string>
+    <string name="text3">Male</string>
+    <string name="weight">Enter your weight(in Ft):</string>
+    <string name="Height">Enter your Height(in inch):</string>
+    <string name="Age">Enter your Age :</string>
+</resources>
