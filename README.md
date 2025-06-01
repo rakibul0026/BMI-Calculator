@@ -3,7 +3,7 @@
 An easy-to-use **BMI (Body Mass Index) Calculator** Android app built using **Java** and **XML**. The app allows users to input their **gender, weight, height, and age** to calculate and display their BMI result.
 
 ## 🖼️ Screenshots
-<img width="188" alt="{28461C76-91EA-4E52-80FF-0FF2B47BB377}" src="https://github.com/user-attachments/assets/bb96621f-9c63-42dc-9409-700af31976f0" />
+![Uploading {3102A049-0320-4126-85D8-F22DE417F69D}.png…]()
 
 
 
